@@ -11,7 +11,7 @@
   "engines": {
     "node": "*"
   },
-  "devDependencies": {
+  "dependencies": {
     "instagram-node-lib":"0.1.1"
   },
   "repository": {
