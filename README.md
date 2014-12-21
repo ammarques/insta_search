@@ -10,4 +10,4 @@ Just use npm install insta_search.
 Anderson Marques
 
 ## License
-A short snippet describing the license (MIT, Apache, etc.)
+insta_search is freely distributable under the terms of the MIT license.

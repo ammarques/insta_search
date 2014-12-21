@@ -4,7 +4,8 @@
   "author": "Anderson Marques",
   "description": "This package is a wrapper for the Insta Search Script.",
   "devDependencies":{
-    "instagram-node-lib":"0.1.1",
-    "moment":"2.8.4"
-  }
+    "instagram-node-lib":"0.1.1"
+  },
+  "repository":"https://github.com/ammarques/insta_search",
+  "bugs":"https://github.com/ammarques/insta_search/issues"
 }
