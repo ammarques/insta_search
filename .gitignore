@@ -1,0 +1,5 @@
+usage.js
+node_modules
+.DS_Store
+min/tests.js
+npm-debug.

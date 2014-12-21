@@ -1,0 +1,10 @@
+{
+  "name": "insta_search",
+  "version": "0.0.1",
+  "author": "Anderson Marques",
+  "description": "This package is a wrapper for the Insta Search Script.",
+  "devDependencies":{
+    "instagram-node-lib":"0.1.1",
+    "moment":"2.8.4"
+  }
+}
