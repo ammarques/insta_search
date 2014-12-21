@@ -9,7 +9,6 @@ var config = {
 
 var inst = require("instagram-node-lib");
 
-
 var insta_search = {
     max_tag_id: null,
     store: function (obj) {

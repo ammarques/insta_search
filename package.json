@@ -1,11 +1,32 @@
 {
   "name": "insta_search",
   "version": "0.0.1",
-  "author": "Anderson Marques",
   "description": "This package is a wrapper for the Insta Search Script.",
-  "devDependencies":{
+  "author": {
+    "name": "Anderson Marques",
+    "email": "andersonmm@gmail.com",
+    "url": "https://github.com/ammarques"
+  },
+  "main": "./insta_search.js",
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
     "instagram-node-lib":"0.1.1"
   },
-  "repository":"https://github.com/ammarques/insta_search",
-  "bugs":"https://github.com/ammarques/insta_search/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ammarques/insta_search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ammarques/insta_search/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "map": {
+    "insta_search": "./insta_search"
+  }
 }
