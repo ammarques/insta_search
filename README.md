@@ -1,13 +1,44 @@
-A node.js spider that aim to provide simple but continuous search integration with Instagram by using its recent tag channel.
-
-## Code Example
-At the momment this is merely a script.
+## Introduction
+insta_search is just a spider/crawler that aim to provide simple but continuous search integration with Instagram by using it's recent tag channel.
 
 ## Installation
-Just use npm install insta_search.
+I believe it's too early in development to publishing it to NPM, so right now the way to use it is by installing directly from this repository:
 
-## Contributors
-Anderson Marques
+Run:
+
+```bash
+$ npm install git://github.com/ammarques/insta_search.git
+```
+
+## Code Example
+At the moment this is merely a script.
+
+```
+var inst = require("insta_search");
+
+var result = function(obj){
+    console.log(obj);
+};
+
+var obj = {
+    last_post_id:null,
+    query:"brazil",
+    id:"YOUR_CLIENT_ID",
+    secret:"YOUR_APP_SECRET",
+    cb:result
+};
+
+inst.search(obj);
+```
+
+
+## Documents
+*   Instagram endpoint tags documentation
+    [http://instagram.com/developer/endpoints/tags](http://instagram.com/developer/endpoints/tags)
+
+*   This module uses David W. McKelvey instagram-node-lib, you can check more of his amazing work here:
+    [https://github.com/mckelvey/instagram-node-lib](https://github.com/mckelvey/instagram-node-lib) and here [https://github.com/mckelvey](https://github.com/mckelvey)
+
 
 ## License
 insta_search is freely distributable under the terms of the MIT license.

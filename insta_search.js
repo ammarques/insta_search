@@ -56,7 +56,7 @@ var insta_search = {
     },
     error: function (msg, obj, caller) {
         console.log(msg, obj);
-        insta_search.interval(null);
+        //insta_search.interval(null);
     },
     init: function () {
         var search_query = {
