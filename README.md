@@ -22,7 +22,7 @@ var result = function(obj){
 
 var obj = {
     last_post_id:null, // Last post obtained, this was mean to be used with a database.
-    query:"brazil", // Desired tag, at the moment and due to Instagram only one tag can be searched at time, check our road map for more info.
+    query:"panicats", // Desired tag, at the moment and due to Instagram only one tag can be searched at time, check our road map for more info.
     id:"YOUR_CLIENT_ID",
     secret:"YOUR_APP_SECRET",
     cb:result // Callback function.
@@ -31,7 +31,6 @@ var obj = {
 inst.search(obj);
 ```
 
-
 ## Documents
 *   Instagram endpoint tags documentation
     [http://instagram.com/developer/endpoints/tags](http://instagram.com/developer/endpoints/tags)
@@ -39,6 +38,9 @@ inst.search(obj);
 *   This module uses David W. McKelvey instagram-node-lib, you can check more of his amazing work here:
     [https://github.com/mckelvey/instagram-node-lib](https://github.com/mckelvey/instagram-node-lib) and here [https://github.com/mckelvey](https://github.com/mckelvey)
 
+
+## Roadmap
+*   Implement a manual multiple tags search.
 
 ## License
 insta_search is freely distributable under the terms of the MIT license.
