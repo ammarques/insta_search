@@ -21,7 +21,7 @@ var result = function(obj){
 };
 
 var obj = {
-    last_post_id:null, // Last post obtained, this was mean to be used with a database.
+    last_post_id:null, // Last post obtained, this was meant to be used with a database.
     query:"adventuretime", // Desired tag, at the moment and due to Instagram only one tag can be searched at time, check our road map for more info.
     id:"YOUR_CLIENT_ID",
     secret:"YOUR_APP_SECRET",
